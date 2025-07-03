@@ -1,7 +1,7 @@
 import cv2
 
 face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-image = cv2.imread('WIN_20250702_11_23_41_Pro.jpg')
+image = cv2.imread('WIN_20250607_15_24_32_Pro.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 #cv2.imshow("Gray", gray)
